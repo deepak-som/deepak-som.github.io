@@ -42,9 +42,9 @@ $(document).ready(function() {
             var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(" ");
 
             $("#coded-lines").animateNumber({ number: 160000, numberStep: comma_separator_number_step }, 2000);
-            $("#rendered-pixels").animateNumber({ number: 301783509, numberStep: comma_separator_number_step }, 2000);
-            $("#coffee-cups").animateNumber({ number: 1512, numberStep: comma_separator_number_step }, 2000);
-            $("#eaten-nutela").animateNumber({ number: 26, numberStep: comma_separator_number_step }, 2000);
+            $("#pages across my fingers leafed through").animateNumber({ number: 5000, numberStep: comma_separator_number_step }, 2000);
+            $("#Number of books I've read").animateNumber({ number: 20, numberStep: comma_separator_number_step }, 2000);
+            $("#projects-completed").animateNumber({ number: 6, numberStep: comma_separator_number_step }, 2000);
 
             $(window).off('scroll');
           }
@@ -62,50 +62,50 @@ $(document).ready(function() {
 var skills = [
             {"header" : "INTERESTS",
               "captions" : [
-                "Digital Marketing",
+                "VLSI Design",
                 "Web",
                 "PWAs",
-                "Design",
-                "SEO"
+                "Python",
+                "AI/ML"
               ],
               "values" : [
-                0.80,
                 0.90,
+                0.85,
                 0.70,
-                0.80,
-                0.90
+                0.95,
+                0.85
               ]
             },
             {"header" : "CORE",
               "captions" : [
                 "CSS",
-                "AJAX",
                 "HTML",
-                "jQuery",
-                "JS"
+                "VHDL",
+                "Embedded C",
+                "   PcbDesign"
               ],
               "values" : [
-                0.90,
+                0.70,
                 0.70,
                 0.90,
-                0.70,
+                0.85,
                 0.80
               ]
             },
-            {"header" : "Mordern Web",
+            {"header" : "TOOLS",
               "captions" : [
-                "Vue",
-                "FusionJs",
-                "React",
-                "Angular",
-                "Weex"
+                "Xilinx",
+                "Proteus",
+                "Django",
+                "Git",
+                "Linux"
               ],
               "values" : [
+                0.70,
                 0.80,
-                0.85,
                 0.90,
-                0.75,
-                0.60
+                0.95,
+                0.80
               ]
             }
           ];
