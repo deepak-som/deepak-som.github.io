@@ -41,7 +41,7 @@ $(document).ready(function() {
           if ($(".numbers-wrapper").is(":visible") == true) {
             var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(" ");
 
-            $("#coded-lines").animateNumber({ number: 160000, numberStep: comma_separator_number_step }, 2000);
+            $("#coded-lines").animateNumber({ number: 20000, numberStep: comma_separator_number_step }, 2000);
             $("#pages across my fingers leafed through").animateNumber({ number: 5000, numberStep: comma_separator_number_step }, 2000);
             $("#Number of books I've read").animateNumber({ number: 20, numberStep: comma_separator_number_step }, 2000);
             $("#projects-completed").animateNumber({ number: 6, numberStep: comma_separator_number_step }, 2000);
@@ -53,7 +53,7 @@ $(document).ready(function() {
     });//end document ready
     function changeImage(){
         $(".downloadCV").html("<p>Download my Resume</p><img src='img/dwnld.gif'>");
-        //window.open("https://docs.google.com/uc?authuser=0&id=0BzUOptk4o8-NY0xOVnBKOTBDdm8&export=download","_blank");
+       // $window.open("https://docs.google.com/uc?authuser=0&id=0BzUOptk4o8-NY0xOVnBKOTBDdm8&export=download","_blank");
         $(".resume").addClass("downloaded");
         $(".downloaded").removeClass("resume");
        }
