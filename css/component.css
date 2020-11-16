@@ -454,7 +454,7 @@ header {
 section.intro{
       padding-top: 0px;
       padding-bottom: 30px;
-      background: #41b0bf;
+      /* background: #41b0bf; */
   }
 
   img {

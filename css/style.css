@@ -161,7 +161,7 @@ p {
 /* ////////////////////////// Preloader ////////////////////// */
 .wrapper {
   width:100%;
-  background-color:#41b0bf;
+  /* background-color:#41b0bf; */
   height:80px;
   position:fixed;
   top:0px;
@@ -223,10 +223,11 @@ ul.menu li a:hover {
   }
 }
 section.intro {
-  background:url(../img/clouds.png) repeat-x top center;
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../img/backgrounds/3.jpg) no-repeat;
   background-size:contain;
   background-repeat:repeat;
-  /*animation:slideleft 20000s infinite linear;-webkit-animation:slideleft 20000s infinite linear;width:100%;*/
+  animation:slideleft 20000s infinite linear;-webkit-animation:slideleft 20000s infinite linear;width:100%;
   background-color:#41b0bf;
   padding-bottom:70px;
   position:relative;
@@ -340,18 +341,33 @@ ul.lang li {
   list-style:none;
   display:inline-block;
 }
-section.projects h1 {
+section.BookRecommedation h1 {
   color:#fff;
   font-family:'ProximaNovaT';
   font-size:50px;
   margin-top:20px;
 }
-section.projects p {
+section.BookRecommedation p {
   color:#fff;
   margin:0 auto;
   font-size:15px;
   margin-left:4px;
 }
+
+section.YoutubeprojectVideos h1 {
+  color:#fff;
+  font-family:'ProximaNovaT';
+  font-size:50px;
+  margin-top:20px;
+}
+section.YoutubeprojectVideos p {
+  color:#fff;
+  margin:0 auto;
+  font-size:15px;
+  margin-left:4px;
+}
+
+
 section.sayhello {
   background:#fff;
   position:relative;
@@ -480,20 +496,36 @@ section.myskills p {
   padding-top:20px;
   cursor:pointer;
 }
-section.projects {
+section.BookRecommedation {
   background:#303030;
   border:20px solid white;
 }
-section.projects h2.name {
+section.BookRecommedation h2.name {
   font-size:30px;
   text-align:center;
   font-family:'ProximaNovaT';
   color:#fff;
 }
-section.projects p.desc {
+section.BookRecommedation p.desc {
   font-size:17px;
   text-align:center;
 }
+
+section.YoutubeprojectVideos {
+  background:#303030;
+  border:20px solid white;
+}
+section.YoutubeprojectVideos h2.name {
+  font-size:30px;
+  text-align:center;
+  font-family:'ProximaNovaT';
+  color:#fff;
+}
+section.YoutubeprojectVideos p.desc {
+  font-size:17px;
+  text-align:center;
+}
+
 section.sayhello ul.icons {
   margin:0;
   padding:0;
@@ -617,7 +649,7 @@ hr {
   .opl,.cssda {
     display:none;
   }
-  section.intro,.wrapper,section.about,section.projects,section.sayhello {
+  section.intro,.wrapper,section.about,section.BookRecommedation,section.YoutubeprojectVideos,section.sayhello {
     border:none;
   }
   .iama {
@@ -642,13 +674,22 @@ hr {
     margin-top:21px;
     font-size:50px;
   }
-  section.projects h1 {
+  section.BookRecommedation h1 {
     font-size:50px;
     text-align:center;
   }
-  section.projects p {
+  section.BookRecommedation p {
     text-align:center;
   }
+
+  section.YoutubeprojectVideos h1 {
+    font-size:50px;
+    text-align:center;
+  }
+  section.YoutubeprojectVideos p {
+    text-align:center;
+  }
+
   .cbp-fwslider ul li>a img {
     width:100% !important;
   }
